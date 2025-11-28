@@ -3,7 +3,7 @@ import { MenuCategory, FoodType } from './types';
 export const MENU_DATA: MenuCategory[] = [
   {
     name: 'Shawarma & BBQ',
-    image: 'https://images.unsplash.com/photo-1629505491216-9351036037b5?auto=format&fit=crop&w=800&q=80',
+    image: '/image/shawarma-bbq.png',
     items: [
       {
         subCategory: 'Shawarma',
@@ -119,7 +119,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     name: 'Maggi & Momos',
-    image: 'https://images.unsplash.com/photo-1625220194771-7ebdea0d06c1?auto=format&fit=crop&w=800&q=80',
+    image: '/image/maggie-momos.png',
     items: [
       {
         subCategory: 'Maggi',
@@ -224,7 +224,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     name: 'Beverages',
-    image: 'https://images.unsplash.com/photo-1551024709-0f23097521e9?auto=format&fit=crop&w=800&q=80',
+    image: '/image/beverages.png',
     items: [
       {
         subCategory: "Soda's & Mojito's",
